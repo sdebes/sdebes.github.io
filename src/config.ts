@@ -9,8 +9,15 @@ export const siteConfig = {
   },
   aboutMe:
     "AI - ML - Software Engineering - Data Science",
-  skills: ["Python", "Foundation Models", "Pytorch", "LightGBM", "Scikit-Learn", "FastAPI"],
+  skills: ["Python", "React", "Supabase", "Foundation Models", "Pytorch", "LightGBM", "Scikit-Learn", "FastAPI"],
   projects: [
+    {
+      name: "Origo",
+      description:
+        "The central hub for shared life logistics. A unified system for couples and roommates to manage chores with fairness weighting, track shared finances, maintain shopping lists, and synchronize calendars. Features real-time synchronization and a polished orange-themed interface.",
+      link: "https://github.com/sdebes/Origo",
+      skills: ["React", "Supabase", "Tailwind CSS", "Frontend Architecture"],
+    },
     {
       name: "LLM Inference Pipeline",
       description:
